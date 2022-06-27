@@ -1,9 +1,9 @@
-site_name: MixDrinks documentation
+site_name: MixDrinks
 
 nav:
   - Home: index.md
+  - Api: api.md
   - About: about.md
-  - Api: api/api.md
 
 theme:
   features:
