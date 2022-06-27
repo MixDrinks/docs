@@ -1,6 +1,9 @@
 site_name: My Docs
 
 theme:
+  features:
+    - navigation.tabs
+    - toc.integrate
   name: mkdocs
   palette:
 
