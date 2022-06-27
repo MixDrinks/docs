@@ -7,5 +7,5 @@ nav:
 
 theme:
   features:
-    - navigation.sections
+    - toc.integrate
   name: mkdocs
