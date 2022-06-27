@@ -1,6 +1,7 @@
 site_name: My Docs
 
 theme:
+  name: mkdocs
   palette:
 
     # Palette toggle for automatic mode
