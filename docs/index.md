@@ -1,6 +1,12 @@
-# Welcome to MkDocs
+# Welcome to MixDrinks documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The project is a backend, frontend and mobile application for mixing drinks. The project provides an information about
+drinks, cocktails and their ingredients.
+
+## What is MixDrinks?
+
+The MixDrinks creates by Ukrainians for Ukrainians. The project is fully open source. You can find the source code
+on [GitHub](https://github.com/MixDrinks) and the site is available on [MixDrinks](https://mixdrinks.org).
 
 ## Commands
 
