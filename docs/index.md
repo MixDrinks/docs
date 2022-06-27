@@ -28,5 +28,4 @@ on [MixDrinks](https://mixdrinks.org).
 
 ## Contributing
 
-We are open for any contribution. If you have any questions, please contact us.
-The guide for contribution will be soon.
+* [Contribution](contribution.md)

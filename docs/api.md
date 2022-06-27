@@ -48,7 +48,7 @@ Example
 
 GET: `v2/cocktails/full` - return the cocktail with all information id, name, list of ingredients, tools, receipt and
 tags. The response has a cache of 1 hour. The information about the ratting and visit count can be outdated. Use
-the [Ratting](#Cocktail ratting information) endpoint to get the latest information.
+the [Ratting](#cocktail-ratting-information) endpoint to get the latest information.
 
 Queries
 
@@ -81,7 +81,7 @@ Queries
 Body:
 `{"value":Int}`
 
-The value must be between minVote (include) and maxVote (include) from App Setting response [AppSetting](#App-settings).
+The value must be between minVote (include) and maxVote (include) from App Setting response [AppSetting](#app-settings).
 
 ## Cocktail visit
 
@@ -96,7 +96,7 @@ Queries
 ## Cocktail ratting information
 
 GET: `v2/cocktail/ratting` - The endpoint just returns the ratting information of the cocktail. The response has the
-same as the [Full cocktail info](#Full-cocktail-info) endpoint. But the response haven't any cache.
+same as the [Full cocktail info](#full-cocktail-info) endpoint. But the response haven't any cache.
 
 ## Item visit
 
