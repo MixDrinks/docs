@@ -5,19 +5,28 @@ drinks, cocktails and their ingredients.
 
 ## What is MixDrinks?
 
-The MixDrinks creates by Ukrainians for Ukrainians. The project is fully open source. You can find the source code
-on [GitHub](https://github.com/MixDrinks) and the site is available on [MixDrinks](https://mixdrinks.org).
+The MixDrinks creates by Ukrainians for Ukrainians. Our site provide a lot of information about cocktails his receipt,
+and tools and goods which you need to prepare it.
+The project is fully open source. You can use it for free. The project is not a commercial product.
 
-## Commands
+You can find the source code on [GitHub](https://github.com/MixDrinks) and the site is available
+on [MixDrinks](https://mixdrinks.org).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Project status
 
-## Project layout
+- Supported API version: `v2`
+- The project is in development phase. But all endpoints are available, working,tested and not be changed.
+- The functionality is not fully implemented, we are working on it.
+- The site will have a new pages such as all tools and all ingredients.
+- The mobile application will be available soon.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Content
+
+* [Api](api.md)
+* [Images](images.md)
+* [About](about.md)
+
+## Contributing
+
+We are open for any contribution. If you have any questions, please contact us.
+The guide for contribution will be soon.

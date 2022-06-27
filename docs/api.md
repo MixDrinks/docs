@@ -1,4 +1,4 @@
-## API
+# API
 
 Base url:
 `https://api.mixdrinks.org/`
@@ -6,7 +6,7 @@ Base url:
 The all API endpoints has a 1-hour cache. Excuse the endpoint which returns just a ratting
 information. (`v2/cocktail/ratting`).
 
-### Filter meta information
+## Filter meta information
 
 The endpoint provides the following meta information:
 
@@ -15,7 +15,7 @@ The endpoint provides the following meta information:
 * queryName - the name of the query parameter for the filter group
 * items - the list of filters in the filter group
 
-### App settings
+## App settings
 
 GET: `v2/settings` - returns the app settings.
 
@@ -29,7 +29,7 @@ Response
 }
 ```
 
-### Cocktail filter
+## Cocktail filter
 
 GET: `v2/search/cocktails` - Returns the cocktails list by filter.
 
@@ -44,7 +44,7 @@ Queries
 Example
 `/cocktails/filter?tags=60&goods=11,12` - Return all cocktails with tag id 60 and good id 11 and 12
 
-### Full cocktail info
+## Full cocktail info
 
 GET: `v2/cocktails/full` - return the cocktail with all information id, name, list of ingredients, tools, receipt and
 tags. The response has a cache of 1 hour. The information about the ratting and visit count can be outdated. Use
@@ -68,9 +68,7 @@ Queries
 |------|---------|--------|-----------------|
 | id   | Yes     | String | The cocktail id |
 
-### Scores
-
-#### Cocktail score
+## Cocktail score
 
 POST: `v2/cocktails/score`
 
@@ -85,7 +83,7 @@ Body:
 
 The value must be between minVote (include) and maxVote (include) from App Setting response [AppSetting](#App-settings).
 
-#### Cocktail visit
+## Cocktail visit
 
 POST: `v2/cocktails/visit`
 
@@ -95,12 +93,12 @@ Queries
 |------|---------|--------|-----------------|
 | id   | Yes     | String | The cocktail id |
 
-#### Cocktail ratting information
+## Cocktail ratting information
 
 GET: `v2/cocktail/ratting` - The endpoint just returns the ratting information of the cocktail. The response has the
 same as the [Full cocktail info](#Full-cocktail-info) endpoint. But the response haven't any cache.
 
-#### Item visit
+## Item visit
 
 POST: `v2/cocktails/visit`
 
