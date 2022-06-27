@@ -29,3 +29,5 @@ on [MixDrinks](https://mixdrinks.org).
 ## Contributing
 
 * [Contribution](contribution.md)
+
+The contribution guide for backend or site will be available soon.
