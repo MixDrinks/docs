@@ -3,6 +3,7 @@ site_name: MixDrinks
 nav:
   - Home: index.md
   - Api: api.md
+  - Backend doc: backend.md
   - About: about.md
 
 theme:
