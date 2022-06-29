@@ -37,3 +37,13 @@ Steps to create a new tab:
 
 - Create a new file
 - Add the field to nav into the `mkdocs.yml`
+
+## Backend app contribution
+
+- Clone the repo
+- Make your changes.
+- Add tests for your changes, if your changes are not tests.
+- Create a pull request. The all checks must pass for the pull request to be merged.
+- The app will be updated on production after the pull request is merged.
+
+[Who to work with app](backend.md)
