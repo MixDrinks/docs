@@ -8,7 +8,7 @@ information. (`v2/cocktail/ratting`).
 
 ## Filter meta information
 
-The endpoint provides the following meta information:
+GET `v2/filters` - returns the list of filter group with filters.
 
 * id - the id of the filter group (unique)
 * name - the name of the filter group
