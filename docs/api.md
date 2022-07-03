@@ -58,6 +58,8 @@ Queries
 
 ## Item
 
+### Full
+
 The ingredients and goods has the same object format. The app provide a one API for ingredients and goods.
 
 GET: `v2/items/full` - Provide full information of ingredient or good.
@@ -67,6 +69,16 @@ Queries
 | Name | Require | Type   | Description     |
 |------|---------|--------|-----------------|
 | id   | Yes     | String | The cocktail id |
+
+### Lists
+
+#### Tools
+
+GET: `v2/tools/all` - Provide list of tools.
+
+#### Goods
+
+GET `v2/goods/all` - Provide list of goods.
 
 ## Cocktail score
 
