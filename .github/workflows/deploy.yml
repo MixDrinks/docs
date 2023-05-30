@@ -9,5 +9,5 @@ jobs:
       - uses: redkubes/docusaurus-deploy-action@v1
         with:
           source-folder: .
-          git-user: Vova Stelmashchuk
+          git-user: VovaStelmashchuk
           deployment-branch: main
