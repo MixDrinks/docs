@@ -96,11 +96,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Автори проекту',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Vova',
+                href: 'https://github.com/MixDrinks',
               },
             ],
           },
