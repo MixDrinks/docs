@@ -26,5 +26,3 @@ on [GitHub](https://github.com/MixDrinks/docs). We use the [mkdocs](https://www.
 - Add tests for your changes, if your changes are not tests.
 - Create a pull request. The all checks must pass for the pull request to be merged.
 - The app will be updated on production after the pull request is merged.
-
-[Who to work with app](backend.md)

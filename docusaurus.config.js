@@ -40,12 +40,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-              'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
+              'https://github.com/MixDrinks/docs',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MixDrinks/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,6 +74,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'apiSidebar',
+            position: 'left',
+            label: 'API',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'backendSidebar',
             position: 'left',
             label: 'Backend',
@@ -90,11 +96,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Автори проекту',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Vova',
+                href: 'https://github.com/MixDrinks',
               },
             ],
           },
