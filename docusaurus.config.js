@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MixDrinks', // Usually your GitHub org/user name.
-  projectName: 'dos', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,15 +39,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
+              'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -72,9 +68,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'otherSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Загалний док',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'backendSidebar',
+            position: 'left',
+            label: 'Backend',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -110,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MixDrinks, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
