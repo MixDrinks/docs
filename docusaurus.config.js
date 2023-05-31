@@ -40,12 +40,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-              'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
+              'https://github.com/MixDrinks/docs',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/MixDrinks/docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MixDrinks/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,6 +71,12 @@ const config = {
             sidebarId: 'otherSidebar',
             position: 'left',
             label: 'Загалний док',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiSidebar',
+            position: 'left',
+            label: 'API',
           },
           {
             type: 'docSidebar',
