@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'MixDrinks',
-  tagline: 'Документацію MixDrinks',
+  tagline: 'Документація MixDrinks',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

@@ -3,17 +3,21 @@
 Base url
 `https://image.mixdrinks.org`
 
-Supported size:
+Доступні розміри:
 
 - 320
 - 400
 - 560
 - origin
 
-Supported size:
+Доступні формати:
 
 - webp
 - jpg
+
+## Як побудувати посилання
+
+`/{type}/{id}/{size}/{id}.{format}`
 
 ## Cocktails
 
@@ -27,4 +31,18 @@ Sample: `/cocktails/104/origin/104.webp`
 `/goods/{id}/{size}/{id}.{format}`
 {id} - id of good
 
-Sample: `/cocktails/104/origin/104.webp`
+Sample: `/goods/104/origin/104.webp`
+
+## Tools
+
+`/goods/{id}/{size}/{id}.{format}`
+{id} - id of tools
+
+Sample: `/goods/104/origin/104.webp`
+
+## Glasswares
+
+`/goods/{id}/{size}/{id}.{format}`
+{id} - id of glassware
+
+Sample: `/goods/104/origin/104.webp`

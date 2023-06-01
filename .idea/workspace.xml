@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac5789ed-0b6a-4345-8c14-864c9ac8dc9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/2023-06-01-year-results/first-year-result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/2023-06-01-year-results/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/other/usefull-link.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2022-05-20-project-start/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/2022-05-20-project-start/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/backend/images.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/backend/images.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/other/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/other/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,30 +29,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vovastelmashchuk/Desktop/MixDrinksAll/docs/static&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/vovastelmashchuk/Desktop/MixDrinksAll/docs/blog/2023-06-01-year-results",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/2023-06-01-year-results" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/docs/backend/img" />
       <recent name="$PROJECT_DIR$/api" />
       <recent name="$PROJECT_DIR$/blog/2022-05-20-project-start" />
-      <recent name="$PROJECT_DIR$/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -83,7 +90,7 @@
       <workItem from="1685522743042" duration="4467000" />
       <workItem from="1685527644911" duration="3356000" />
       <workItem from="1685618440141" duration="4000" />
-      <workItem from="1685646550372" duration="431000" />
+      <workItem from="1685646550372" duration="1702000" />
     </task>
     <servers />
   </component>
