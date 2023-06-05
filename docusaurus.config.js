@@ -32,6 +32,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -99,9 +104,13 @@ const config = {
             title: 'Автори проекту',
             items: [
               {
-                label: 'Vova',
-                href: 'https://github.com/MixDrinks',
+                label: 'Vova Stelmashchuk',
+                href: 'https://bento.me/vovastelmashchuk',
               },
+              {
+                label: 'Mykola Holovashchenko',
+                href: 'https://github.com/BuJlJlu',
+              }
             ],
           },
           {
