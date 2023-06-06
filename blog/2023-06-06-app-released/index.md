@@ -17,12 +17,3 @@ console та змін зробити production track.
 
 Якщо вам цікава тех складова, то вам в ось цей файл проекту
 **[Mobile ci](https://github.com/MixDrinks/Mobile/blob/main/.github/workflows/prod_deploy.yml)**
-
-
-
-
-
-
-
-
-
