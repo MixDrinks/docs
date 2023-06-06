@@ -2,6 +2,13 @@
 
 Для документації використовується [Docusaurus 2](https://docusaurus.io/)
 
+### Запустити локально 
+Поставте nodeJs 16 або вище
+```
+npx docusaurus start 
+```
+
+Детальніше [тут](https://docs.mixdrinks.org/docs/other/how-this-page-works) 
 
 ### Робота з документацією локально
 

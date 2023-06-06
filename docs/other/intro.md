@@ -18,8 +18,9 @@ Backend хоститься це все на digital ocean, десь там і б
 
 ```mermaid
 graph TD;
-    Frontend/MobileClients-->Backend;
-    Frontend/MobileClients-->S3;
+    Backend <--> PostgresSQL
+    Frontend/MobileClients --> Backend;
+    Frontend/MobileClients --> S3;
 ```
 
 # Welcome to MixDrinks documentation
