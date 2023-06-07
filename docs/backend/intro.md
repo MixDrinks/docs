@@ -58,3 +58,6 @@ You can use [Docker](https://www.docker.com/) to run the app. App use Kotlin exp
 The app has tests. The test written in [Kotest](https://kotest.io/).
 End-to-end tests verify user end flow. Mock the database and verify endpoint responses.
 The unit tests verify the logic of the app.
+
+### Version name і Version code
+Почитати про версіонування можна в [документації](/docs/version.md)
