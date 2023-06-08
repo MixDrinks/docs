@@ -19,10 +19,16 @@
 Працюєте локально, ось їх [документація Docusaurus](https://docusaurus.io/docs/installation).
 Вам треба тільки поставити NodeJs версії 16 або вище і виконати команди:
 
+Скачування проєкту та підготовка залежностей, виконати лише один раз
 ```bash
 git clone https://github.com/MixDrinks/docs.git
 cd docs
-npx docusaurus start 
+npm install 
+```
+
+Запуст тестового сервера
+```bash
+npx docusaurus start
 ```
 
 Це підніме цей сайт локально на вашому комп'ютері і ви зможете працювати з ним як звичайно.

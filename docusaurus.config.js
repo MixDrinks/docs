@@ -89,6 +89,12 @@ const config = {
             position: 'left',
             label: 'Backend',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'mobileSidebar',
+            position: 'left',
+            label: 'Мобільний додаток',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/MixDrinks/docs',
