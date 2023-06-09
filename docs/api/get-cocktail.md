@@ -11,7 +11,7 @@ URL: `/v2/cocktail/{slug}`
 - tags - масив тегів, кожний елемент має назву, та filter_query - посилання на сторінку з фільтром по тегу, формат такий
   як в запиті на filter, детальніше [тут](work-with-filters.md)
 
-Ось приклад json від сервера, масини json видалені для компактності, про те як працювати з
+Ось приклад json від сервера, масиви json видалені для компактності, про те як працювати з
 картинками [тут](../backend/images.md)
 
 ```json
@@ -34,7 +34,7 @@ URL: `/v2/cocktail/{slug}`
       "images": [],
       "amount": 10,
       "unit": "г",
-      "url": "goods/539",
+      "url": "goods/laim",
       "slug": "laim"
     },
     {
@@ -43,7 +43,7 @@ URL: `/v2/cocktail/{slug}`
       "images": [],
       "amount": 15,
       "unit": "мл",
-      "url": "goods/130",
+      "url": "goods/laimovyi-sik",
       "slug": "laimovyi-sik"
     }
   ],
