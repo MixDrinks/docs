@@ -46,3 +46,50 @@ Sample: `/goods/104/origin/104.webp`
 {id} - id of glassware
 
 Sample: `/goods/104/origin/104.webp`
+
+## Приклад json
+
+```json
+[
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/origin/348.webp",
+    "media": "screen and (min-width: 570px)",
+    "type": "image/webp"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/560/348.webp",
+    "media": "screen and (min-width: 410px)",
+    "type": "image/webp"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/400/348.webp",
+    "media": "screen and (min-width: 330px)",
+    "type": "image/webp"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/320/348.webp",
+    "media": "screen and (min-width: 0px)",
+    "type": "image/webp"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/origin/348.jpg",
+    "media": "screen and (min-width: 570px)",
+    "type": "image/jpg"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/560/348.jpg",
+    "media": "screen and (min-width: 410px)",
+    "type": "image/jpg"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/400/348.jpg",
+    "media": "screen and (min-width: 330px)",
+    "type": "image/jpg"
+  },
+  {
+    "srcset": "https://image.mixdrinks.org/cocktails/348/320/348.jpg",
+    "media": "screen and (min-width: 0px)",
+    "type": "image/jpg"
+  }
+]
+```
