@@ -13,4 +13,4 @@ sidebar_position: 3
 - [Як працювати з пагінацією](paggination.md)
 - [Рейтинг та перегляда](ratting.md)
 - [Як працювати з фільтрами](work-with-filters.md)
-- [Приладдя](tool.md)
+- [Приладдя/Інгрідієнти/Стакан](tool-goods-glassware.md)
