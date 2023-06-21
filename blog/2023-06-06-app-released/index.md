@@ -12,7 +12,7 @@ tags: [ log, results, mobile ]
 [![App store logo](app-store-badge.png)](https://apps.apple.com/app/id6447103081)
 
 Я переміг систему сертифікатів apple та зміг зарелізити iOS додаток в AppStore, також розібрався в UI Google play
-console та змін зробити production track.
+console та зміг зробити production track.
 Звісно для цього всьго вже зроблено CI тому нові релізи буду регулярно.
 
 Якщо вам цікава тех складова, то вам в ось цей файл проекту
