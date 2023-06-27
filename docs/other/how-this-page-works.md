@@ -21,7 +21,7 @@
 
 Скачування проєкту та підготовка залежностей, виконати лише один раз
 ```bash
-git clone https://github.com/MixDrinks/docs.git
+npm install -g ngit clone https://github.com/MixDrinks/docs.git
 cd docs
 npm install 
 ```

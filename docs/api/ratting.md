@@ -47,22 +47,3 @@ URL: `v2/cocktails/score`, method: `POST`
   "visitCount": 5
 }
 ```
-
-В майбутньому це буде доступно тільки для авторизованих користувачів
-
-## Додати перегляд
-
-URL: `v2/cocktails/visit`, method: `POST`
-
-### Параметри
-
-- id: id коктейля, передати в query `id`
-
-### Відповідь
-```json
-{
-  "cocktailId": 1285,
-  "rating": 4.567,
-  "visitCount": 5
-}
-```

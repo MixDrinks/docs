@@ -60,4 +60,4 @@ End-to-end tests verify user end flow. Mock the database and verify endpoint res
 The unit tests verify the logic of the app.
 
 ### Version name і Version code
-Почитати про версіонування можна в [документації](/docs/version.md)
+Почитати про версіонування можна в [документації](/docs/other/version.md)

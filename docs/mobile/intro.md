@@ -122,4 +122,4 @@ pod install
 ```
 
 ### Version name і version code
-Почитати про version name і version code можна [тут](docs/version.md)
+Почитати про version name і version code можна [тут](../other/version.md)
