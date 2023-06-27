@@ -9,7 +9,7 @@ Backend хоститься це все на digital ocean, десь там і б
 
 - [Web](https://github.com/MixDrinks/site) - nuxt js, vue, ...
 - [Backend](https://github.com/MixDrinks/backend) - ktor, docker, ...
-- [Mobile](https://github.com/MixDrinks/mobile) - kotlin multyplatform to compose by jetbrains
+- [Mobile](https://github.com/MixDrinks/mobile) - kotlin multiplatform to compose by jetbrains
 - [Andorid](https://github.com/MixDrinks/android) - kotlin, compose
 
 Є не нулювий шанс до Android та Mobile буде з чосом змержено
