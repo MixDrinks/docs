@@ -32,4 +32,3 @@ The version code does not depend on the version part after dash `-` sign.
 | 1.2.34       | 102_034      | 100_000 + 2_000 + 34            |
 | 1.2.34-1     | 102_034      | 100_000 + 2_000 + 34, `-1` cuts |
 
-

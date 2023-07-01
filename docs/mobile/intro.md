@@ -123,3 +123,9 @@ again.
 
 After you maker changes into resources into `shared` module, you need to run `pod install` in
 the `iosApp` folder.
+```shell
+pod install
+```
+
+### Version name і version code
+More about version name and version code you can read [here](../other/version.md)
