@@ -1,4 +1,4 @@
-# Пагінація в mixdrinks
+# Pagination в mixdrinks
 
 //TODO: finish docs
 

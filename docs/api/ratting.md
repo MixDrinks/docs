@@ -1,18 +1,19 @@
-# Робота з оцінкою та кількістю переглядів
+# Ratting flows
 
-## Оцінка
+## Score
 
-Обмеження з по оцінці беруться з налаштувань додатку, документація [тут](app-settings.md), як змінити
-налаштування [тут](../backend/app-setting.md)
+The score has a restriction, which is taken from the application settings, documentation [here](app-settings.md), how to
+change settings [here](../backend/app-setting.md)
 
-## Отримати оцінку та кількість візитів для усіх коктейлів
+## Get score and count of visits for all cocktails
 
 URL:`v2/cocktails/ratting`, method: `GET`
 
-**Шлях: `/v2/search/ratings` deprecated**, зараз є 302 редірект на новий шлях
+**Path: `/v2/search/ratings` deprecated**, the path has 302 redirect at the moment
 
-### Відповідь
-Відповідь містить мапу всіх коктейлів з їх рейтингом та кількістю переглядів
+### Response
+
+The response has a map of all cocktails with their rating and count of visits
 
 ```json
 {
@@ -29,17 +30,19 @@ URL:`v2/cocktails/ratting`, method: `GET`
 }
 ```
 
-## Зміна оцінки
+## Add new score
 
 URL: `v2/cocktails/score`, method: `POST`
 
-### Параметри
-- id: id коктейля, передати в query `id`
-- `{"value": <user ratte> }` - json з оцінкою, передати в body
+### Parameters
 
-Оцінка має бути в межах від minVote та maxVote (див. налаштування додатку [тут](app-settings.md))
+- id: the cocktails id, put it as query `id`
+- `{"value": <user ratte> }` - the json with score value, put it as a body
 
-### Відповідь
+The score should be in the range from minVote to maxVote (see application settings [here](app-settings.md))
+
+### Response example
+
 ```json
 {
   "cocktailId": 1285,

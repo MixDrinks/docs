@@ -5,15 +5,15 @@ authors: [vova]
 tags: [log, results]
 ---
 
-![Резутьту першого року](first-year-result.png)
+![First year results](first-year-result.png)
 
-Проект був зроблений на запущений орієнтовно в кінці травня 2022 року. Але для гугл ми його відкрити тільки в червні.   
+The project was made on the launched approximately at the end of May 2022. But for google we opened it only in June. 
 
-Тут трішки статистики, за цей рік (з червня 2022 по червень 2023):
-- 436 - переходів на сайт з гуглу
-- 11 600 - показів сайту в видачі гугла
-- Запит по якому нас частіше за все видавав гугл: `віскі з яблучним соком`
-- Середня позиція сайту <a href="https://mixdrinks.org">MixDrinks</a> одинадцята
+Some statistics for this year (from June 2022 to June 2023):
+- 436 - clicks from google search
+- 11 600 - impressions in google search
+- The query `віскі з яблучним соком` was the most popular query for the year
+- The median position of site <a href="https://mixdrinks.org">MixDrinks</a> eleven
 
-Це єдині цифри які ми знаємо тому що в нас немає ніяких трекерів чи будь чого іншого, орієнтуємось тільки на google search console.
+The only numbers we know because we don't have any trackers or anything else, we rely only on google search console.
 

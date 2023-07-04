@@ -1,11 +1,12 @@
-# Список коктейлів
+# The cocktails list
 
 Method: GET
 URL: `cocktails/all`
 
-Повертає список усіх коктелів, з полями id, slug, name 
+Returns th list of all cocktails, with fields id, slug, name
 
-## Відповідь від сервера
+## Response example
+
 ```json
 [
   {

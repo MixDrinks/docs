@@ -1,24 +1,26 @@
-# Приладдя / Інгрідієнти / Стакани
+# Tools/ Goods/ Glassware
+
+The endpoint returns information about the tool/good/glassware by slug.
 
 Method: GET
 URL: `/v3/{type}/{slug}`
 
-Можливі варіати для type:
+The available types are:
 
 - `tools`
 - `goods`
 - `glassware`
 
-Type повністю свіпадає з filter group id з [запиту по фільтрах](work-with-filters.md) 
+The slug fully matches the filter group id [More about filters here](work-with-filters.md)
 
-## Відповідь від сервера
+## Response
 
 - slug
-- name - назва приладдя
-- about - інформація про приладдя
-- images - список зображень
+- name - the name of the tool/good/glassware
+- about - the description of the tool/good/glassware
+- images - The images [more about images here](../backend/images.md)
 
-Ось приклад json від сервера, масиви images видалені для компактності.
+### Response example
 
 ```json
 {
@@ -29,12 +31,12 @@ Type повністю свіпадає з filter group id з [запиту по 
 }
 ```
 
-## В'язані коктейлі
+## Cocktail which has dependency on this tool/good/glassware
 
-Для того щоб отримати від сервера список коктейлів для приготування яких потрібне це приладдя, використовуйте API по
-фільтрах, **[Як працювати з фільтрами](work-with-filters.md)**.
+In case you need to get cocktails which has dependency on this tool/good/glassware, use the API by filters.
+Check more about filters [here](work-with-filters.md)
 
-Приклад
+### Sample request:
 
 ```bash
 curl https://api.mixdrinks.org/v2/filter/tools=sheiker

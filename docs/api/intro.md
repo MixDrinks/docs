@@ -2,9 +2,11 @@
 sidebar_position: 3
 ---
 
-# API нашого backend сервісу
+# The API of out backend
 
-Базова силка: `https://api.mixdrinks` - все посилання в api документації відносні
+Base url: `https://api.mixdrinks`
+
+__The all link in this documentation is relative to this url__
 
 - [Налаштування](app-settings.md)
 - [Список коктейлів](cocktail-list.md)

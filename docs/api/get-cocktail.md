@@ -1,18 +1,19 @@
-# Отримати інформацію про коктейль
+# Get info about the cocktail
 
 Method: GET
 URL: `/v2/cocktail/{slug}`
 
-## Відповідь від сервера
+## Response
 
-- receipt - рецепт коктейля, масив кроків, кожний елемент один крок в приготуванні
-- goods - масив інгредієнтів, кожний елемент містить інформацію про інгредієнт, та url
-- tools - масив посуду, кожний елемент містить інформацію про посуд, та url
-- tags - масив тегів, кожний елемент має назву, та filter_query - посилання на сторінку з фільтром по тегу, формат такий
-  як в запиті на filter, детальніше [тут](work-with-filters.md)
+- receipt - The receipt of the cocktails present as an array of steps;
+- goods - array of goods
+- tools - array of tools
+- tags - array of tags, the element has name and filter_query - the link to for filter page associate with the
+  tag [more about how filters works here](work-with-filters.md)
 
-Ось приклад json від сервера, масиви json видалені для компактності, про те як працювати з
-картинками [тут](../backend/images.md)
+### Response example
+
+More about images format [here](../backend/images.md)
 
 ```json
 {

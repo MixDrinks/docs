@@ -1,17 +1,18 @@
-# Налаштування
+# App settings
 
-Як змінити значення налаштувань [тут](../backend/app-setting.md)
+Manage app settings values [here](../backend/app-setting.md)
 
-## Отримати налаштування
+## Get app settings
 
 URL: `/v2/settings`
 method: `GET`
 
-Повертає такі налаштування:
+Return the following settings:
 
-- minVote, maxVote - використовуються для рейтину коктейлів
-- pageSize - розмір сторіки для пагінації, рекомендується використовувати цифри що кратні 2,3,4,6 - це дозволить на
-  сайті не залежно від кількості стовпців на сторінці мати довершений список.
+- minVote, maxVote - use for rating feature
+- pageSize - The page site, using for pagination, We strong recommended to use number which can be div by 2,3,4,6
+  such as 12, 24, 48, etc. The default value is 24. The value which div by 2,3,4,6 good for pagination, because the web
+  page change the number of column without half fill the last row.
 
 ```json
 {
