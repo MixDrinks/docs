@@ -9,6 +9,7 @@
 ### List of articles
 
 Method: GET
+
 URL: `/blog/articles`
 
 #### Response
@@ -41,6 +42,7 @@ The list of article titles
 ### Article details
 
 Method: GET
+
 URL: `blog/article?id=<articleId>`
 
 articleId - the id from the previus endpoint
