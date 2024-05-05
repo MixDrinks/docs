@@ -53,30 +53,37 @@ The article body with all detalis. The responce build as constructor which open 
 ```json
 {
     "type": "text",
-    "style": "H<N>",
-    "text": "Звідки почати, коли ми говоримо про коктейлі 60-х років в Америці? Цей період був часом інновацій та експериментів у світі коктейльної культури. Ось десять найпопулярніших напоїв того часу, які додавали колориту американським барам та вечіркам."
+    "values": {
+        "text": "Звідки почати, коли ми говоримо про коктейлі 60-х років в Америці? Цей період був часом інновацій та експериментів у світі коктейльної культури. Ось десять найпопулярніших напоїв того часу, які додавали колориту американським барам та вечіркам."
+    }
 }
 ```
 
-List of text style
-- `H1` - 32/SemiBold
-- `H2` - 24/SemiBold
-- `H3` - 20/SemiBold
-- `regular_text` - 20/Regular
+##### Title H2 `title_h2`
+```json
+{
+    "type": "title_h2",
+    "values": {
+        "title": "Мартіні"
+    }
+},
+```
 
 ##### Image `image`
 ```json
 {
     "type": "image",
-    "imageUrl": "https://images.mixdrinks.org/cocktails/1334/origin/1334.webp"
-}
+    "values": {
+        "imgUrl": "https://images.mixdrinks.org/cocktails/1334/origin/1334.webp"
+    }
+},
 ```
 
 ##### Cocktail card `cocktail_card`
 ```json
 {
     "type": "cocktail_card",
-    "cocktail": {
+    "values": {
         "id": 348,
         "slug": "marharyta-bez-tsukru",
         "name": "Маргарита без цукру",
